@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="1" name="OSSI Suite" annotations="JDK" parallel="tests">
+
+
+<listeners>
+	<listener class-name ="ossi.com.qa.ExtentReportListener.ExtentReportListenerNg"/>
+</listeners>
+
+<test name="ossiArticleSubmissionPage">
+<classes>
+<class name="ossi.com.qa.testcases.StartsSubmissionPageTest"/>
+</classes>
+</test>
+
+
+</suite>

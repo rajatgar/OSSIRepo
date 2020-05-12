@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [OSSI Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="ossi.com.qa.ExtentReportListener.ExtentReportListenerNg"/>
+  </listeners>
+  <test thread-count="1" name="ossiArticleSubmissionPage(failed)" parallel="tests">
+    <classes>
+      <class name="ossi.com.qa.testcases.StartsSubmissionPageTest">
+        <methods>
+          <include name="test"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- ossi.com.qa.testcases.StartsSubmissionPageTest -->
+    </classes>
+  </test> <!-- ossiArticleSubmissionPage(failed) -->
+</suite> <!-- Failed suite [OSSI Suite] -->

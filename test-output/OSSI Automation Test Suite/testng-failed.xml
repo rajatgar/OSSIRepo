@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [OSSI Automation Test Suite]">
+  <test thread-count="5" name="OSSI Test Cases(failed)">
+    <classes>
+      <class name="ossi.com.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="loginpageTitleTest"/>
+        </methods>
+      </class> <!-- ossi.com.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- OSSI Test Cases(failed) -->
+</suite> <!-- Failed suite [OSSI Automation Test Suite] -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OSSI Suite" duration-ms="140625" started-at="2020-05-05T09:22:54Z" finished-at="2020-05-05T09:25:15Z">
+    <groups>
+    </groups>
+    <test name="ossiArticleSubmissionPage" duration-ms="140625" started-at="2020-05-05T09:22:54Z" finished-at="2020-05-05T09:25:15Z">
+      <class name="ossi.com.qa.testcases.StartsSubmissionPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:ossi.com.qa.testcases.StartsSubmissionPageTest@6093dd95]" name="setup" is-config="true" duration-ms="15705" started-at="2020-05-05T09:22:54Z" finished-at="2020-05-05T09:23:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startSubmissionArticle()[pri:0, instance:ossi.com.qa.testcases.StartsSubmissionPageTest@6093dd95]" name="startSubmissionArticle" duration-ms="124901" started-at="2020-05-05T09:23:10Z" finished-at="2020-05-05T09:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSubmissionArticle -->
+      </class> <!-- ossi.com.qa.testcases.StartsSubmissionPageTest -->
+    </test> <!-- ossiArticleSubmissionPage -->
+  </suite> <!-- OSSI Suite -->
+</testng-results>
